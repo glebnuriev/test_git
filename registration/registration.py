@@ -2,6 +2,7 @@ import sqlite3
 
 DB_NAME = 'users.db'
 
+
 def create_db():
     with sqlite3.connect(DB_NAME) as conn:
         cursor = conn.cursor()
